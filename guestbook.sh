@@ -2,7 +2,7 @@
 
 #cloning the project sample repository
 sudo git clone https://github.com/avkumar19/examples.git
-cd examples/guestbook
+cd ~/examples/guestbook
 #Creating pods and services
 kubectl apply -f redis-master-deployment.yaml
 kubectl apply -f redis-master-service.yaml  
